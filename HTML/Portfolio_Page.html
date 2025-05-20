@@ -1,0 +1,266 @@
+<!--
+Disclaimer: -
+I know this is a H.W. were I did not require to add a bunch of things.
+However, I wanted to do a small side project that fufills the requirements of this H.W. as well.
+My main reason for doing this much is because I felt my previous portfolio website was lackluster (wanted to better portfolio website of myself, which is also now called ver. 2).
+So, please go take into consideration that I wanted to to this side project (I hope you won't be too strict in the grading).
+I apologise if this is too much for the H.W.
+-->
+
+<html>
+    <head>
+        <title>Portfolio Web Page</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "Portfolio_CSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Audiowide&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src = "PortJS.js"></script>
+    </head>
+    <body>
+        <nav class = "navbar">
+            <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>    
+            <p id = "nameLogo">Mohamed Alawadhi</p>
+            <div class = "right_side">
+                <a href = "#aboutSection" id = "navButton">About</a>
+                <a href = "#projectSection" id = "navButton">Projects</a>
+                <a href = "#contactSection" id = "navButton">Contacts</a>
+            </div>
+        </nav>
+        <div class = "aboutSection" id = "aboutSection">
+            <img src = "Photo_of_me_with_bird.jpg" alt = "photoOfMe" id = "myPhoto">
+            <div id = "welDes">
+                <h1 id = "welcome">
+                    A glimpse into the future
+                </h1>
+                <br><br>
+                <p id = "about">
+                    <em><b>Name:</b></em> Mohamed Abdelrahim Alawadhi
+                    <br>
+                    <em><b>Age:</b></em> 21
+                    <br>
+                    <em><b>Nationality:</b></em> United Arab Emirates
+                    <br><br>
+                    <b>A little bit about me: -</b>
+                    <br>
+                    A dedicated Computer Science student seeking practical experience and opportunities to expand programming knowledge and skills. Eager to apply classroom learning to real-world challenges while fostering strong work ethics and contributing to meaningful projects.
+                    <br><br>
+                    <b>Interests: -</b>
+                    <br>
+                    Animals, Travels, Nutrition, Fitness, Video games, Drawing, Pop-culture, Self-improvement.
+                    <br><br>
+                    <b>Soft Skills: -</b>
+                    <br>
+                    Problem solver, Time management, Teamwork, communication, Testing, Debugging.
+                </p>
+            </div>
+        </div>
+        <div class = "projectSection" id = "projectSection">
+            <center>
+                <h2 id = "projectTitle">Projects that I have done</h2>
+            </center>
+            <div id = "projects">
+                <h2>AUS Projects</h2>
+                <div class = "cardContainer">
+                    <!--First card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Statistical/Data Analysis and Clean-up</h3>
+                        <img src = "https://img.freepik.com/free-vector/data-report-illustration-concept_114360-883.jpg?t=st=1739819607~exp=1739823207~hmac=df202c3a0719cb1b5bd82934fb573b045a05327cd8ef505d372be60ecd67aa95&w=740" alt = "cartoon data image" class = "cardImage">
+                        <div class = "cardDes">
+                            <ul>
+                                <li>
+                                    Processed and analysed a dataset of 6,302 AUS students using RStudio, focusing on GPA, study 
+                                    habits, and demographics.
+                                </li>
+                                <br>
+                                <li>
+                                    Key tasks included data cleaning, generating descriptive statistics, hypothesis testing, and evaluating 
+                                    correlations, with findings compiled into a structured report. 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Second card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Introduction to AI and Data Science Final Project</h3>
+                        <img src = "https://img.freepik.com/premium-vector/modern-design-illustration-cloud-upload_362714-12119.jpg?w=740" alt = "cartoon data image" class = "cardImage">
+                        <div class = "cardDes">
+                            <ul>
+                                <li>
+                                    Development of a regression model with group members to predict the Customer Lifetime Value 
+                                    (CLV) for 6817 customers of an auto-insurance company using 19 customer attributes.
+                                </li>
+                                <br>
+                                <li>
+                                    Assist in understanding the relationships between several attributes and the CLV, thus formulating 
+                                    effective customer retention strategies.
+                                </li>
+                                <br>
+                                <li>
+                                    Utilizes data exploration, visualization, preprocessing, and model development.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Third card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Plant Disease Detection using Pooling-based Vision Transformers (PiT)</h3>
+                        <img src = "https://img.freepik.com/free-vector/businessman-technology-measuring-eye-position-movement-tiny-people-eye-tracking-technology-gaze-tracking-eye-position-sensor-concept_335657-2443.jpg?t=st=1739821766~exp=1739825366~hmac=f4e237b30137b37d04f73a29791165ee9afd756e8386ae091c8df1ea0787b0dd&w=996" alt = "cartoon vision image" class = "cardImage">
+                        <div class = "cardDes">
+                            <ul>
+                                <li>
+                                    Developed as a final project for the Computer Vision course, this project explores the application of 
+                                    the Pooling-based Vision Transformer (PiT) architecture for identifying plant diseases.
+                                </li>
+                                <br>
+                                <li>
+                                    Using the comprehensive Plant Village dataset of 70,000 images across 29 classes, the study 
+                                    benchmarks PiT against Vision Transformers (ViT) and ResNet models, evaluating accuracy, 
+                                    precision, recall, computational efficiency, and robustness.
+                                </li>
+                                <br>
+                                <li>
+                                    The project's approach leverages PiT's ability to capture local and global image features, aiming to 
+                                    provide a scalable and efficient solution for automated agricultural diagnostics.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "projects">
+                <h2>Responsive Web Design Projects</h2>
+                <div class = "cardContainer">
+                    <!--First card-->
+                        <div class = "card">
+                            <h3 class = "cardTitle">Survey Form</h3>
+                            <img src = "https://shots.codepen.io/username/pen/JjzRPRj-800.jpg?version=1704882224" alt = "Survey Form Image" class = "cardImage">
+                            <div class = "cardDes">
+                                <em><b>Reference: -</b></em>
+                                <br>
+                                <a href = "https://codepen.io/Marsh-the-sasster/full/JjzRPRj">
+                                    <button class = "btn" onclick = "console.log('Visited Survey Form')">Go to this Website</button>
+                                </a>
+                            </div>
+                        </div>
+                    <!--Second card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Tribute Page</h3>
+                        <img src = "https://shots.codepen.io/username/pen/ZEPpzOV-800.jpg?version=1704882162" alt = "Tribute Page of the UAE Emperors Image" class = "cardImage">
+                        <div class = "cardDes">
+                            <em><b>Reference: -</b></em>
+                            <br>
+                            <a href = "https://codepen.io/Marsh-the-sasster/full/ZEPpzOV">
+                                <button class = "btn" onclick = "console.log('Visited Tribute Page')">Go to this Website</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Third card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Technical Documentation Page</h3>
+                        <img src = "https://shots.codepen.io/username/pen/PoLGYzj-800.jpg?version=1704882106" alt = "Technical Document Image" class = "cardImage">
+                        <div class = "cardDes">
+                            <em><b>Reference: -</b></em>
+                            <br>
+                            <a href = "https://codepen.io/Marsh-the-sasster/full/PoLGYzj">
+                                <button class = "btn" onclick = "console.log('Visited Technical Documentation Page')">Go to this Website</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Fourth card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Product Landing Page</h3>
+                        <img src = "https://shots.codepen.io/username/pen/mdoEZoo-800.jpg?version=1704878206" alt = "Product Landing Web Image" class = "cardImage">
+                        <div class = "cardDes">
+                            <em><b>Reference: -</b></em>
+                            <br>
+                            <a href = "https://codepen.io/Marsh-the-sasster/full/mdoEZoo">
+                                <button class = "btn" onclick = "console.log('Visited Product Landing Page')">Go to this Website</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Fifth card-->
+                    <div class = "card">
+                        <h3 class = "cardTitle">Portfolio Webpage (Ver. 1)</h3>
+                        <img src = "portfolio_ver1.png" alt = "Portfolio Web Image" class = "cardImage">
+                        <div class = "cardDes">
+                            <em><b>Reference: -</b></em>
+                            <br>
+                            <a href = "https://codepen.io/Marsh-the-sasster/full/eYXdNKw">
+                                <button class = "btn" onclick = "console.log('Visited Portfolio Page (ver. 1)')">Go to this Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "contactSection" id = "contactSection">
+            <h2 id = "contactTitle">My Information</h2>
+            <div class = "cvArea">
+                <h3>
+                    If you still want to know more information about me, feel free to download and view my CV.
+                </h3>
+                <center>
+                    <div class = "boxSpinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <a href = "Final CV.pdf" download = "Mohamed_Alawadhi's_CV">
+                        <button onclick = "alert('Downloading...')" class = "downBtn">
+                            <b>Download</b>
+                        </button>
+                    </a>
+                </center>
+            </div>
+        </div>
+        <footer>
+            <center>
+                <h3 id = "footerTitle">My Contacts</h3>
+                <a href = "https://aus-csm.symplicity.com/students/app/profile" id = sLinks>
+                    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFwInAZHUHSDPpV5xVUGuDHb_Xf3YckPsuw&s" alt = "AUS CSE Portal Logo" id = "socialLinks">
+                </a>
+                <a href = "https://www.linkedin.com/in/ma00/" id = "sLinks">
+                    <img src = "https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-1lbqxnq8.png" alt = "LinkIn Logo" id = "socialLinks">
+                </a>
+                <a href = "https://github.com/Raven-04" id = sLinks>
+                    <img src = "data:image/png;base64,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" alt = "GitHub Logo" id = "socialLinks">
+                </a>
+                <a href = "https://wa.me/+971509728732" id = sLinks>
+                    <img src = "data:image/png;base64,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" alt = "WhatsApp Logo" id = "socialLinks">
+                </a>
+                <a href = "https://www.instagram.com/raven_01510/" id = "sLinks">
+                    <img src = "https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" alt = "Instagram Logo" id = "socialLinks">
+                </a>
+                <a href = "https://www.facebook.com/mohammed.alkhaja.5811/" id = sLinks>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt = "Facebook Logo" id = "socialLinks">
+                </a>
+                <a href = "https://www.reddit.com/user/Upstairs_Key_6563/" id = sLinks>
+                    <img src = "data:image/png;base64,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" alt = "Reddit Logo" id = "socialLinks">
+                </a>
+            </center>
+            <br>
+            <hr>
+            <p class = "footerRight">© 2025 <a href = "Weird_Web.html" id = "mystery">Mohamed Alawadhi</a> Portfolio Website. All rights reserved.</p>
+            <br>
+            <button onclick = "topFunc()" class = "btnTop">
+                <svg class = "svgIcon" viewBox = "0 0 384 512">
+                    <path d = "M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+                </svg>
+            </button>
+            <button onclick = "lightDarkMode()" class = "btnChange">
+                <img src = "https://www.svgrepo.com/show/315691/dark-mode.svg" alt = "light or dark mode button">
+            </button>
+        </footer>
+    </body>
+</html>
